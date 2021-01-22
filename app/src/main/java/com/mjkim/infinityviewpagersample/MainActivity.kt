@@ -3,7 +3,7 @@ package com.mjkim.infinityviewpagersample
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
-import com.mjkim.infinityviewpager.InfinityViewPager
+import com.mjkim.infinityviewpagerlib.InfinityViewPager
 import kotlinx.android.synthetic.main.activity_main.*
 import java.util.*
 
