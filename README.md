@@ -1,5 +1,7 @@
 ## InfinityViewPagerSampleApp Using ViewPager2 and Glide
 
+### It could be set Auto Paging Timer
+
 #### build.gradle(app)   
 ```
 android {   ...
