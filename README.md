@@ -31,6 +31,7 @@ dependencies {   ...
 ```
  private fun init(){
         //make sample example image list
+        //list size must be over 2 !!!!!!!!!!!!!!!!!
         val sampleImgList = ArrayList<Any>()
         sampleImgList.add(ContextCompat.getDrawable(this, R.drawable.glide_sample_photo1)!!)
         sampleImgList.add(ContextCompat.getDrawable(this, R.drawable.glide_sample_photo2)!!)
