@@ -21,9 +21,23 @@ dependencies {   ...
     annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
     
     //infinity viewpager
-    implementation name : 'mj_infinity_viewpager_v.1.0', ext : 'aar'
+    implementation 'com.github.mjkim737:InfinityViewPager:1.5'
 }
 ```
+
+#### build.gradle(project)
+```
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
+[![](https://jitpack.io/v/mjkim737/InfinityViewPager.svg)](https://jitpack.io/#mjkim737/InfinityViewPager)
+
+
 
 
 
