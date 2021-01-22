@@ -41,7 +41,7 @@ dependencies {   ...
         //* In sampleList, you can put - java : ArrayList<Object> / - kotlin : ArrayList<Any>  (all types supported by Glide can be used)
         val infinityViewPager = InfinityViewPager(this, R.layout.sample_fragment, main_viewpager, sampleImgList)
 
-        //set viewpager timer
+        //set viewpager timer (default period, initialDelayed Time is 3sec)
         infinityViewPager.setTimerEnabled(true, 3000, 3000)
     }
 ```
